@@ -37,7 +37,7 @@ body {
 
 @media only screen and (max-width:380px) {
     #container {
-        scale: 70%;
+        scale: 65%;
         left: 0px;
     }
 }
@@ -104,7 +104,6 @@ body {
 #betting_board{
 	width: 500px;
     height: 315px;
-    border: 1px solid;
     scale: 98%;
 }
 
@@ -435,12 +434,19 @@ body {
     top: 135%;
 }
 
+.winning_lines , .bbtop , .number_board , .bo3_board , .oto_board , .pnBlock {
+	position: relative;
+	top: 135px;
+	left: -30px;
+}
+
 .wheel {
 	height: 312px;
 	width: 312px;
 	position: relative;
-	left: -60px;
-    top: 20px;
+	left: -75px;
+    top: -10px;
+	scale: 90%;
 }
 	
 .ballTrack{
